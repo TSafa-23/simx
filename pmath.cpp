@@ -14,8 +14,6 @@ namespace pmath {
 			return true;
 		return false;
 	}
-
-	double 
 }
 
 bool Particle::is_colliding(const Particle *p1) {
