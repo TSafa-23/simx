@@ -21,3 +21,7 @@ bool Particle::is_colliding(const Particle *p1) {
 		return true;
 	return false;
 }
+
+double Particle::distance(const Particle *p1) {
+	return pmath::distance(this, p1);
+}
