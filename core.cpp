@@ -2,5 +2,6 @@ class Particle {
 public:
 	std::vector<double> pos;
 	double radius;
-	bool is_colliding(const Particle *);
+	bool is_colliding(const Particle*);
+	double distance(const Particle*)
 };
